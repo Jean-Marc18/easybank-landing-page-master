@@ -1011,6 +1011,16 @@ footer {
 
 }
 
+@media (max-width: 415px) {
+    .why {
+        height: 170vh;
+    }
+
+    .article {
+        max-height: 255vh;
+    }
+}
+
 @media (max-width: 376px) {
     .article {
         max-height: 270vh;
