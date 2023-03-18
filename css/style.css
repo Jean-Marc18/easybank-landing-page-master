@@ -395,7 +395,7 @@ main {
 .text h4:hover {
     cursor: pointer;
     color: var(--Lime-Green);
-  }
+}
 
 .text p {
     font-size: .8rem;
@@ -715,7 +715,7 @@ footer {
 
     .why {
         padding: 1rem;
-        height: 120vh;
+        height: 145vh;
         gap: 1rem;
         position: relative;
         align-items: center;
@@ -753,7 +753,7 @@ footer {
     }
 
     .article {
-        height: 200vh;
+        height: 255vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -787,7 +787,7 @@ footer {
     }
 
     footer {
-        height: 60vh;
+        height: 85vh;
         flex-direction: column;
         justify-content: center;
     }
@@ -831,7 +831,7 @@ footer {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 810px) {
     .dropdown-menu {
         left: 2rem;
         width: unset;
@@ -924,7 +924,7 @@ footer {
     }
 
     .article {
-        height: 180vh;
+        height: 230vh;
     }
 
     .container {
@@ -955,7 +955,7 @@ footer {
     }
 
     footer {
-        height: 65vh;
+        height: 70vh;
         flex-direction: column;
         justify-content: center;
     }
@@ -996,4 +996,32 @@ footer {
         width: 100%;
         align-items: center;
     }
+}
+
+@media (max-width: 665px) {
+    .article {
+        height: 300vh;
+    }
+}
+
+@media (max-width: 428px) {
+    .article {
+        max-height: 220vh;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .article {
+        max-height: 270vh;
+    }
+
+    .why {
+        height: 190vh;
+    }
+
+    footer {
+        height: 90vh;
+    }
+
 }
