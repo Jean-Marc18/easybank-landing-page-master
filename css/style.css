@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&family=Public+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&family=Poppins:wght@400;500;700&display=swap');
 
 :root {
 
@@ -426,7 +427,7 @@ footer {
     color: var(--White);
     font-size: 1.2rem;
     font-weight: bold;
-    font-family: 'poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
 .logos a:hover {
@@ -558,13 +559,13 @@ footer {
     font-size: 14px;
     text-align: center;
     color: var(--White);
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .attribution a {
     font-size: 14px;
     color: var(--Lime-Green);
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -1034,4 +1035,18 @@ footer {
         height: 90vh;
     }
 
+}
+
+@media (max-height : 567) {
+    .why {
+        height: 235vh;
+    }
+
+    .article {
+        max-height: 300vh;
+    }
+
+    footer {
+        height: 100vh;
+    }
 }
